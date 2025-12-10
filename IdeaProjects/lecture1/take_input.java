@@ -1,0 +1,14 @@
+package lecture1;
+
+
+import java.util.Scanner;
+
+public class take_input {
+        public static void main(String[] args){
+            Scanner sc=new Scanner(System.in);
+            int a= sc.nextInt();
+            System.out.println(a);
+        }
+    }
+
+
