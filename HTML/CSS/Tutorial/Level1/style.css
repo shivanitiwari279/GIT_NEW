@@ -1,0 +1,59 @@
+
+h1
+{
+    color: rgb(10, 46, 47);
+    text-align: center;
+    text-decoration:rgb(31, 2, 61) dotted underline;
+    font-size:50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2
+{
+    color: rgb(116, 8, 58);
+    text-align: right;
+    text-decoration: overline;
+    font-family:sans-serif;
+}
+
+p
+ {
+   color: rgb(71, 36, 104);
+   text-align: left;
+   text-decoration: line-through;
+ }
+ 
+ button
+ {
+    color: coral;
+    background-color: aqua;
+  
+ }
+
+ body
+ {
+    background-color: rgb(250, 193, 193);
+ }
+
+ #heading
+ {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: left;
+ }
+
+ #heading1
+ {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: right;
+ }
+
+
+ pre
+ {
+    text-align: center;
+    line-height: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+ }

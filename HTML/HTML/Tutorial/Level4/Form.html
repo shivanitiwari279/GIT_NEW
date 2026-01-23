@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- FORMS IN HTML (Forms are used to collects the data from the user )-->
+    <!-- E.G. :sign up/ login/ help requests/contact me-->
+    <!--Action in Form
+        ~Action attribute is used t difine what action need to performed when a from is submitted
+        Form Element : Input                           -->
+    <h2>Registration Form</h2>
+    <br><br>
+    <form action="/action.php">
+    <input type="text" placeholder="Enter Username">
+    <br>
+    <br>
+    <input type="password" placeholder="Enter Password">
+    <!--LABLE (lable means assing a tag or name to any input)-->
+    <h4>Select Class :</h4>
+    <label for="101">
+        <input type="radio" value="Class XI" name="Class" id="101">Class XI
+    </label>
+    <br><br>
+    <label for="102">
+        <input type="radio" value="Class XII" name="Class" id="102">Class XII
+    </label>
+    <!--CLASS & ID-->
+    <div id="D1" class="Group 1">
+
+    </div>
+    <div id="D2" class="Group 2">
+
+    </div>
+     <h4>Select Subjests :</h4>
+    <label for="Math">
+        <input type="checkbox" value="Maths" name="Subject" id="101">Maths
+    </label>
+    <br><br>
+    <label for="Physics">
+        <input type="checkbox" value="Physics" name="Subject" id="102">Physics
+    </label>
+    <br><br>
+    <label for="Chemistry">
+        <input type="checkbox" value="Chemistry" name="Subject" id="103">Chemistry
+    </label>
+    <br><br>
+    <label for="English">
+        <input type="checkbox" value="English" name="Subject" id="104">English
+    </label>
+    <br><br>
+    <label for="Hindi">
+        <input type="checkbox" value="Hindi" name="Subject" id="105">Hindi
+    </label>
+    <h4>Select The City :</h4>
+    <select name="city" id="1001">
+        <option value="Delhi">Delhi</option>
+        <option value=" Mumbai">Mumbai</option>
+        <option value="MP">MP</option>
+        <option value="UP">UP</option>
+    </select>
+    <br>
+    <h4>Give Your feedback :</h4>
+    <!--TEXT AREA-->
+    <textarea name="feedback" id="101" placeholder="give your feedback here.." cols="80" rows="6"></textarea>
+    <br><br>
+    <input type="submit" value="submit" >
+    </form>
+</body>
+</html>
