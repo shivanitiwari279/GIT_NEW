@@ -1,0 +1,81 @@
+ body{
+            font-family: sans-serif;
+            line-height: 1.4;
+            
+        }
+        #container{
+            width: 600px;
+            position: relative;
+            left: 400px;
+        }
+        header{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 80px;
+            color: rgb(74, 113, 166);
+            line-height: 1.1;
+        }
+        #h2-1{
+            color: orange;
+        }
+
+        #h2-2{
+            color: rgb(44, 140, 162);
+        }
+
+        a{
+            color: rgb(119, 162, 44);
+        }
+        .side-content{
+            padding-right: 300px;
+        }
+
+        .what-is-bouldering{
+            position: absolute;
+            top: 45%;
+            padding-left: 56%;
+        }
+
+        .why-bouldering{
+            padding-left: 50%;
+        }
+
+       .teal-bg{
+            color: white;
+            background-color: rgb(51, 116, 162);
+            padding: 10px;
+            border: solid rgb(45, 84, 113) 5px;
+        } 
+
+        .climbing{
+            position: absolute;
+            top: 73%;
+        }
+
+        p{
+            font-size: small; 
+           
+        }
+
+        #another-resource{
+            background-color:rgb(155, 206, 251);
+            padding: 10px;
+            border:groove ;
+            text-align: center;
+        }
+
+        section{
+             margin-block: 70px;
+        }
+        footer{
+            padding: 1px ;
+            text-align: center;
+            background-color: rgb(51, 116, 162);
+            color: white;
+        }
+    
+        li{
+            font-size: small;
+        }

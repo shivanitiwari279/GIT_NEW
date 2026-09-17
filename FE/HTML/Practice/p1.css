@@ -1,0 +1,13 @@
+header{
+    block-size: 60px;
+    background-color: rgb(245, 230, 212);
+}
+
+#pizza{
+    text-align: start;
+}
+
+#home{
+    text-align: end;
+    display: grid;
+}
