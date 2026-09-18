@@ -4,70 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template1</title>
-    <style>
-        body{
-            font-family: sans-serif;
-            line-height: 1.6;
-            
-        }
-        #container{
-            width: 600px;
-            position: relative;
-            left: 400px;
-        }
-        header{
-            text-align: center;
-        }
-        h1{
-            text-align: center;
-            font-size: 80px;
-            color: rgb(74, 113, 166);
-            line-height: 1.1;
-        }
-        h2{
-            color: orange;
-        }
-        p{
-            font-size: small; 
-           
-        }
-        section{
-             margin-block: 75px;
-        }
-        footer{
-            padding: 1px +;
-            text-align: center;
-            background-color: rgb(76, 125, 203);
-            color: white;
-        }
-    
-        li{
-            font-size: small;
-        }
-       
-    </style>
+    <link rel="stylesheet" href="Project1.css">
 </head>
 <body>
     <div id="container">
         <header>
-            <img src="https://uc4bac2a9d213dc5b4b91828b5b4.previews.dropboxusercontent.com/p/thumb/ADFo1_rGcOfakWCDbcjJ_Zsw_WlMNSTD185KznLAQrNapo4YweMWbvUF8iBtSWqLLCXNa3U3Nd62gTeNSyaVyQMNroV3uNtFJcgouvZPWB_oA-PLtrOOIwDsWMJ_dX8vSp1RKPz7l-Dhd53qXrB8uGaj_vX6dLpWtCpbVtZzgDtSgu1u6_O8_UPlIyw2toI_L3MbDhHzK6qnLhVvJyZOLjVuV2jyULJZsvJ3lHcalgJ7pCPsRALMONMzYSiJ8729EUfiMJHY-WKUJ479iwGy01klBzn7QhCL8aN5jIxkOoWDUk70Lxby_LmVtsJ4MjfmfKHyFnk9rcIluuvyTYE-IaxGMiNotHdhRaL_jmZ1qfRCcA/p.png" alt="Boulder inc.">
+            <img src="image/logo (1).svg"Boulder inc.">
         </header>
         <main>
             <section>
                 <h1>Discover the Thrill of Bouldering</h1>
-                <img src=" https://jontuckerdesign.com/images/bouldering-gym.jpg" height="300" width="660" alt="An indore bouldering gym, with a lot of people ">
+                <img src="image/bouldering-gym.jpg" height="300" width="660" alt="An indore bouldering gym, with a lot of people ">
             </section>
-            <section>
-                <h2>What is Bouldering?</h2>
+            <section class="side-content">
+                <h2 id="h2-1">What is Bouldering?</h2>
                 <p>Bouldering is a form of rock climbing that is performed on small rock formations or artificial rock walls without the use of ropes or harnesses.</p>
                 <p>Unlike <a href="https://www.cag.org.in/blogs/folklore-future-how-indigenous-practices-are-steering-climate-solutions-india-and-beyond">traditional climbing</a>, bouldering focuses on short but intensive routes called “problems,” typically keeping climbers within a safe distance from the ground while they navigate challenging sequences of moves.</p>
-                <p>Experience the perfect blend of <strong>physical challenge and mental puzzle-solving</strong> as you navigate routes close to the ground, with nothing but a crash pad and determination. Bouldering strips climbing down to its purest form, making it both <strong>accessible to beginners and endlessly challenging for experts.</strong></p>
             </section>
+            <img src="image/what-is-bouldering.jpg " height="250" class="what-is-bouldering">
             <section>
-                <h2>Why Bouldering?</h2>
+                <p class="teal-bg">Experience the perfect blend of <strong>physical challenge and mental puzzle-solving</strong> as you navigate routes close to the ground, with nothing but a crash pad and determination. Bouldering strips climbing down to its purest form, making it both <strong>accessible to beginners and endlessly challenging for experts.</strong></p>
+            </section>
+            <section class="why-bouldering">
+                <h2 id="h2-2">Why Bouldering?</h2>
                 <p>Whether you’re a complete beginner or an experienced athlete, climbers of all ages can challenge themselves, celebrate each other’s successes, and <em>build lasting friendships</em>.</p>
-            </section>
-            <section>
+
                 <h3>Reasons to get started:</h3>
         <ul>
             <li>Full-body workout</li>
@@ -75,9 +36,11 @@
             <li>Builds mental resilience</li>
             <li>And much more!</li>
         </ul>
-        
-        <p>Interested? Then find out <a href="Project2.html"> how to get started with bouldering!</a></p>
-            </section>
+        </section>
+        <img src="image/why-bouldering.jpg" alt="a man is climbing over a huge rock" height="260" class="climbing">
+        <section id="another-resource">
+            <p>Interested? Then find out <a href="Project2.html"> how to get started with bouldering!</a></p>
+        </section>
         
         </main>
     <footer>
