@@ -1,10 +1,9 @@
- body{
+        body{
             font-family: sans-serif;
             line-height: 1.4;
-            
         }
         #container{
-            width: 600px;
+            width: 680px;
             position: relative;
             left: 400px;
         }
@@ -14,8 +13,11 @@
         h1{
             text-align: center;
             font-size: 80px;
-            color: rgb(74, 113, 166);
             line-height: 1.1;
+        }
+
+        h1 span{
+            color: rgb(74, 113, 166);
         }
         #h2-1{
             color: orange;
@@ -28,6 +30,19 @@
         a{
             color: rgb(119, 162, 44);
         }
+
+        a:visited{
+            color: purple;
+        }
+
+        a:hover{
+            color: blue;
+        }
+
+        a:active{
+            color: black;
+        }
+        
         .side-content{
             padding-right: 300px;
         }
@@ -58,7 +73,7 @@
             font-size: small; 
            
         }
-        
+
 
         #another-resource{
             background-color:rgb(155, 206, 251);
@@ -80,3 +95,4 @@
         li{
             font-size: small;
         }
+

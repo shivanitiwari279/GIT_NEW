@@ -11,34 +11,61 @@
             position: relative;
             left: 400px;
         }
-        header{
-            text-align: center;
+
+        .logo{
+            
         }
+        .navbaar{
+            position: absolute;
+            right: 0%;
+        }
+
         h1{
             text-align: center;
-            font-size: 90px;
-            color: rgb(26, 63, 116);
+            font-size: 80px;
         }
         h2{
             color: orange;
         }
         
+                a{
+            color: rgb(119, 162, 44);
+        }
+
+        a:visited{
+            color: purple;
+        }
+
+        a:hover{
+            color: blue;
+        }
+
+        a:active{
+            color: black;
+        }
+
         #container{
             width: 100%;
         }
         .text{
             color: white;
-            width: 200px;
+            /* width: 200px;
             position: absolute;
-            top: 55%;
-            left: 5%;
+            top: 46%;
+            left: 5%; */
             font-size: medium;
+            padding: 20px;
+            border: 7px solid rgb(43, 108, 152);
+            background-image: url(image/simple-steps.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
-        .side_text{
+        /* .side_text{
             position: absolute;
-            left: 45%;
-            top: 54%;
-        }
+            left: 49%;
+            top: 46%;
+        } */
         footer{
             text-align: center;
             height: 40px;
@@ -52,23 +79,31 @@
         section{
              margin-block: 70px;
         }
+        h1 span{
+            color: rgb(26, 63, 116);;
+        }
+        
+        
     </style>
 </head>
 <body>
     <header>
-            <img src="https://uc4bac2a9d213dc5b4b91828b5b4.previews.dropboxusercontent.com/p/thumb/ADFo1_rGcOfakWCDbcjJ_Zsw_WlMNSTD185KznLAQrNapo4YweMWbvUF8iBtSWqLLCXNa3U3Nd62gTeNSyaVyQMNroV3uNtFJcgouvZPWB_oA-PLtrOOIwDsWMJ_dX8vSp1RKPz7l-Dhd53qXrB8uGaj_vX6dLpWtCpbVtZzgDtSgu1u6_O8_UPlIyw2toI_L3MbDhHzK6qnLhVvJyZOLjVuV2jyULJZsvJ3lHcalgJ7pCPsRALMONMzYSiJ8729EUfiMJHY-WKUJ479iwGy01klBzn7QhCL8aN5jIxkOoWDUk70Lxby_LmVtsJ4MjfmfKHyFnk9rcIluuvyTYE-IaxGMiNotHdhRaL_jmZ1qfRCcA/p.png" alt="logo of boulder">
+        <div>
+            <img src="image/logo (1).svg" alt="logo of boulder" class="logo">
+            <span class="navbaar"><strong>Home Getting Started </strong></span>
+        </div>
     </header>
 
     <main>
         <section>
-            <h1>Getting started <br>with <scan>Bouldering</scan></h1>
+            <h1>Getting started <br>with <span>Bouldering</span></h1>
             <h2>How to get started</h2>
-            <p>Unlike many outdoor sports, getting started with bouldering is surprisingly simple. All you need are some climbing shoes, chalk,and a positive attitude—most gyms even rent the equipment for your first sessions. No prior experience or complex gear required!</p>
+            <p>Unlike many outdoor sports, getting started with <a href="Project1.html">bouldering is surprisingly simple</a>. All you need are some climbing shoes, chalk,and a positive attitude—most gyms even rent the equipment for your first sessions. No prior experience or complex gear required!</p>
         </section>
-        
+
 
         <section id="container">
-            <img src="https://previews.dropbox.com/p/thumb/ADFgM2lpiE9YKGkui7zkdpg0y0m4AajpytUJwYH2E9_-JiSdISd-jD_AjSn5j3LRsw9HQUpidKrclbePjymec7Vng7Wercg3fK1zDiySc9U7MRXYDokSJxcjmy33hvwA4Ufea2Om-zVy1WU-JyYnTHHa3_bZwdiOYtZpRHogJ1JwmdyGHxPgsjo_Cr-k8NRhMizfB7LJFEE57EvuahtRj78Gf7j0BRGO9eugXqNAKQlUZ9ATseO-l4eF38kK8KDeA2J84bSIzPsHPdV7RXA-HhHNjQMwPhZpJ3GUwxWV-5F6Ug/p.jpeg" height="200">
+            <!-- <img src="image/simple-steps.jpg" height="200"> -->
             
             <div class="text">
                 <h3>Know Before You Go</h3>
@@ -89,7 +124,7 @@
         </section>
         
            <section>
-            <img src="https://uc78d40bea6f8b7d7028b221d5f4.previews.dropboxusercontent.com/p/thumb/ADHrvn_nn9adQBOkxx0qnCF4IPGUMZFj3wwcUjxMosvNgl6uUSmhhR5v3a_Y9upo2WM0Da-DW5uFfDtswfZg2VVQR3EUijfphraDHdutQgtNHp5ZwFylxwKIvC5hMh5Zd9m7jXusMDbYaluYsfHDihJOnQvjLp8rMq8YkufnF5vqI6kx6yrfbPQJfxzRHolxi59LOTybTBV8kUit42JCQ70e7d0nb1U-icLnaZclbze60Wv5DRcbEqkENxT6ooxEwiP4o4zLtS8dRw-G20Prz7jJzE9hPY9C0b6TQWZ47szhOHr-wJuQYwt0Fh9nxjrtVpO3jHSZJbXO3kHQlc2CWIE1tOsHWKtnEZLTSFIZPwH76A/p.jpeg" height="200" width="600px">
+            <img src="image/getting-started-outdoors.jpg" height="230" width="600px">
         </section>
 
     </main>
