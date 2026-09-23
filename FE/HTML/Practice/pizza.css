@@ -1,0 +1,136 @@
+
+body{
+    margin-inline: auto;
+    margin-block: auto;
+    background-color: rgb(251, 248, 244);
+}
+
+#wrapper{
+    max-inline-size: 800px;
+    margin-inline: auto;
+}
+header{
+    block-size: 60px;
+    background-color: rgb(245, 230, 212);
+    font-family:'Baloo 2',cursive;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+
+.navbaar ul {
+   list-style: none;
+   display: flex;
+   gap: 30px;
+}
+.navbaar a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbaar a:hover{
+    color: orangered;
+}
+
+h1,h2{
+    font-family:'Baloo 2',cursive;
+}
+h1 span{
+    font-family: 'Baloo 2',cursive;
+    color: rgb(237, 65, 2);
+    font-weight: 800;
+    font-size: 70px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: small;
+}
+.two-column-style{
+    margin-inline: 60px;
+    margin-block: 10px;
+    display: flex;
+    gap: 10px;
+}
+ .inside-content{
+    padding: 20px;
+    background-color: rgb(241, 231, 219);
+ }
+
+  .liking li::marker{ 
+    content: '🍕';
+ }
+
+ #h2{
+    text-align: center;
+ }
+
+
+ .toppings{
+    margin-inline: 60px;
+    display: flex;
+    gap: 25px;
+    
+}
+
+.toppings p{
+    text-align: center;  
+ }
+
+ .about-toppings span{
+    font-size: large;
+    font-weight: 900;
+ }
+
+ .about-toppings {
+    padding: 20px;
+    text-align: center;
+ }
+
+.cheese{
+    padding: 10px;
+    border-radius: 7%;
+    background-color: rgb(254, 245, 236);
+}
+
+.mushroom{
+    padding: 10px;
+    border-radius: 7%;
+    background-color: rgb(237, 244, 239);
+}
+
+.olives{
+    padding: 10px;
+    border-radius: 7%;
+    background-color: rgb(242, 233, 248);
+}
+
+footer{
+    padding: 20px;
+    margin-top: auto;
+    text-align: center;
+    background-color:rgb(248, 238, 225) ;
+}
+
+.Ratings{
+    display: flex;
+    justify-content:center;
+    font-weight: 900;
+    font-family:'Baloo 2',cursive; 
+}
+
+button{
+    color: white;
+    background-color: rgb(241, 79, 10);
+    display: block;
+    margin: 10px auto;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Poppins',sans-serif;
+}
+section{
+    margin-block: 20px;
+}

@@ -24,6 +24,16 @@
             font-weight: bold;
             text-decoration: none;
         }
+
+        .primary-navigation a:hover{
+            color:gray;
+        }
+
+        /* .primary-navigation a:visited{
+            color: black;
+        } */
+
+
         h1{
             text-align: center;
             font-size: 80px;
@@ -55,10 +65,6 @@
             color: rgb(119, 162, 44);
         }
 
-        /* a:visited{
-            color: purple;
-        } */
-
         a:hover{
             color: blue;
         }
@@ -69,8 +75,10 @@
         
         .two-column-style{
             display: grid;
-            grid-template-columns: 1fr 1fr;
             gap: 100px;
+            @media (width > 600px) {
+                 grid-template-columns: 1fr 1fr;
+            }
         }
 
        .teal-bg{
